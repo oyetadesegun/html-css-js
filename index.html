@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title> </title>
+        <title> Test title</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <iframe src="https://google.com" style="border: none;"></iframe>
+        <div style="color: green; background-color: blue;">
         <h1 style="color: red;">Hello world</h1>
         <h2>Second line</h2>
-        <h3>Third line</h3>
-        <p>This is a test paragraph</p>
+        <h3 style="background-color: aquamarine;">Third line</h3></div>
+        <p>This is a test paragraph &euro;</p>
+        <form action="form.html" method="POST">
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname"/>
+            <label for="firstname">Firstname:</label>
+            <input type="text" name="firstname" id="firstname">
+            <br>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" name="phone" id="phone">
+            <hr>
+            <label for="gender">Gender:</label>
+            <br>
+            <label for="gender">Male</label>
+            <input type="radio" name="gend" id="gender" value="male">
+            <label for="gender">Female</label>
+            <input type="radio" name="gend" id="gender" value="female">
+            <hr>
+            <br>
+            <input type="submit" value="Register">
+            <hr>
+        </form>
         <!--
            <a href="https://google.com" target="_blank">Click this Link</a>
         <img src="https://df0b18phdhzpx.cloudfront.net/ckeditor_assets/pictures/1154563/original_573935_Question_Dice.png"> 
@@ -30,8 +54,19 @@
             </tr>
         </table>
         <ul>
-
+            <li>Name 1</li>
+            <li>Name 2</li>
+            <li>Name 3</li>
         </ul>
+        <ol>
+            <li>School</li>
+            <li>Doctor</li>
+            <li>Chef</li>
+        </ol>
+        <dl>
+            <dt>Name 1</dt>
+            <dd>* Name of school, union</dd>
+        </dl>
         
         <b> This is a text</b>
         <!--
