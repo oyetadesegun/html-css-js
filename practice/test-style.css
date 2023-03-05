@@ -1,0 +1,46 @@
+/* Changes background of the body */
+.form{
+    border: 3px, solid red;
+    border-radius: 20px;
+    padding: 4px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-button{
+    padding: 13px;
+    font-size: 16px;
+    background-color: crimson;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown-button{
+    animation: ease-in;
+    animation-delay: 5;
+    scale: 0.97;
+   /* padding: 8px;*/
+ background-color: blue;   
+ color: white;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 160px;
+    text-align: center;
+}
+.dropdown-menu a:hover{
+    background-color: white;
+}
+.dropdown-menu a{
+   color: black; 
+   padding: 11px 15px;
+   text-decoration: none;
+   display: block;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
